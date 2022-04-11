@@ -1,0 +1,3 @@
+[submodule "third_party/vimrc"]
+	path = third_party/vimrc
+	url = git@github.com:denleyhsiao/vimrc
