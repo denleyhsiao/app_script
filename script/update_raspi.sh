@@ -15,6 +15,3 @@ sudo sed -i "s/${SOURCE_MIRROR}/${TARGET_MIRROR}/g" ${SOURCE_FILE}
 sudo apt-get update -y
 sudo apt-get upgrade -y
 echo "Update raspi end"
-
-source os_clear.sh
-reboot
