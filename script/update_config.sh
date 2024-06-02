@@ -29,5 +29,5 @@ elif [ "${ACTION_NAME}" == "link" ]; then
 else
   echo "Not support action: $1"
 fi
-echo "Update config ..."
+echo "Update config end"
 

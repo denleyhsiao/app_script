@@ -11,9 +11,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZDOTDIR:-$HOME}
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZDOTDIR:-$HOME}/.zsh/zsh-syntax-highlighting
 
 cat >> ${ZDOTDIR:-$HOME}/.zshrc << EOF
-  source /usr/share/autojump/autojump.sh
-  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-  source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+source /usr/share/autojump/autojump.sh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 EOF
 
 source ${ZDOTDIR:-$HOME}/.zshrc
